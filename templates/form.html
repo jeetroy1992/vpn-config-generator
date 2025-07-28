@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>VPN Config Generator</title>
+</head>
+<body>
+<h1>Enter VPN Details</h1>
+<form method="POST" action="/generate">
+       Customer Name: <input type="text" name="customer_name"><br><br>
+       VRF Name: <input type="text" name="vrf_name"><br><br>
+       Tunnel IP: <input type="text" name="tunnel_ip"><br><br>
+       Remote Peer IP: <input type="text" name="remote_ip"><br><br>
+       Local Subnet (e.g., 10.1.1.0 0.0.0.255): <input type="text" name="local_subnet"><br><br>
+       Remote Subnet (e.g., 192.168.1.0 0.0.0.255): <input type="text" name="remote_subnet"><br><br>
+<input type="submit" value="Generate Config">
+</form>
+</body>
+</html>
+
+⸻
